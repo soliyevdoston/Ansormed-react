@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../assets/hero-img.png";
 export default function header() {
   return (
     <div>
@@ -13,12 +13,7 @@ export default function header() {
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <img
-              src="../../src/assets/logo (1).svg"
-              alt="ansormed logo"
-              width="150"
-              height="49"
-            />
+            <img src={logo} alt="ansormed logo" width="150" height="49" />
           </a>
           <div className="header-links-wrapper">
             <nav className="header-nav">
