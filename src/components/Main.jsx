@@ -10,11 +10,7 @@ export default function Main() {
     <div>
       <main>
         <section className="hero">
-          <div
-            className="contenir hero-container"
-            data-aos="fade-down-right"
-            data-aos-duration="1500"
-          >
+          <div className="contenir hero-container">
             <div className="hero-content">
               <h2 className="hero-title">
                 Tabiiy davrolash usullari yordamida kasalliklardan xalos
@@ -36,24 +32,16 @@ export default function Main() {
               alt="python-book"
               height="510"
               width="510"
-              data-aos-duration="1500"
-              data-aos="fade-left"
             />
           </div>
         </section>
 
         <section className="why">
-          <div
-            className="contenir"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
-            <h1 className="why-title" data-aos="zoom-in-down">
-              Xizmatlar
-            </h1>
+          <div className="contenir">
+            <h1 className="why-title">Xizmatlar</h1>
 
             <ul className="cards">
-              <li className="card" data-aos="fade-down-right">
+              <li className="card">
                 <img className="circle" src={img1} alt="Oson buyurtma qilish" />
                 <div className="card-div">
                   <h2 className="card-title">Hijoma</h2>
@@ -67,11 +55,7 @@ export default function Main() {
                 </div>
               </li>
 
-              <li
-                className="card"
-                data-aos="fade-down-right"
-                data-aos-delay="100"
-              >
+              <li className="card">
                 <img className="circle" src={img2} alt="Eng sara kitoblar" />
                 <div className="card-div">
                   <h2 className="card-title">Manual terapiya</h2>
@@ -84,11 +68,7 @@ export default function Main() {
                 </div>
               </li>
 
-              <li
-                className="card"
-                data-aos="fade-down-right"
-                data-aos-delay="200"
-              >
+              <li className="card">
                 <img className="circle" src={img3} alt="Tez yetkazib berish" />
                 <div className="card-div">
                   <h2 className="card-title">Zuluk bilan davolash</h2>
@@ -104,11 +84,7 @@ export default function Main() {
                 </div>
               </li>
 
-              <li
-                className="card"
-                data-aos="fade-down-right"
-                data-aos-delay="300"
-              >
+              <li className="card">
                 <img className="circle" src={img4} alt="Tez yetkazib berish" />
                 <div className="card-div">
                   <h2 className="card-title">Tabiy dori vositalar</h2>
@@ -130,14 +106,8 @@ export default function Main() {
           </div>
         </section>
         <section className="cta">
-          <div
-            className="cta-content"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
-            <h2 className="cta-title" data-aos="fade-up-right">
-              Qabuldan ro'yxatdan o'tish
-            </h2>
+          <div className="cta-content">
+            <h2 className="cta-title">Qabuldan ro'yxatdan o'tish</h2>
 
             <div className="button-div">
               <a href="#" className="cta-button cta-buttonn">

@@ -6,46 +6,40 @@ export default function header() {
       <header className="header">
         <div className="top"></div>
         <div className="contenir header-container">
-          <a
-            className="logo-text"
-            style={{ color: "black" }}
-            href="../App.jsx"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
+          <a className="logo-text" style={{ color: "black" }} href="../App.jsx">
             <img src={logo} alt="ansormed logo" width="150" height="49" />
           </a>
           <div className="header-links-wrapper">
             <nav className="header-nav">
               <ul className="header-links">
-                <li data-aos="fade-down-right">
+                <li>
                   <a className="header-link" href="#">
                     Xizmatlar
                   </a>
                 </li>
-                <li data-aos="fade-down-right" data-aos-delay="100">
+                <li>
                   <a className="header-link" href="#">
                     Dorilar
                   </a>
                 </li>
-                <li data-aos="fade-down-right" data-aos-delay="200">
+                <li>
                   <a className="header-link" href="#">
                     Asal
                   </a>
                 </li>
-                <li data-aos="fade-down-right" data-aos-delay="300">
+                <li>
                   <a className="header-link" href="#">
                     Kontaktlar
                   </a>
                 </li>
-                <li data-aos="fade-down-right" data-aos-delay="400">
+                <li>
                   <a className="header-link" href="#">
                     Blog
                   </a>
                 </li>
               </ul>
             </nav>
-            <a className="orange-button orange" href="#" data-aos="zoom-in">
+            <a className="orange-button orange" href="#">
               Qabulga yozilish
             </a>
           </div>
