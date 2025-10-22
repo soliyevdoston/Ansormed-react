@@ -140,10 +140,7 @@ export default function Main() {
             </div>
           </div>
         </section>
-
-        {/* CTA */}
         <section className="cta">
-          {/* content */}
           <div
             className="cta-content"
             data-aos="fade-right"

@@ -15,7 +15,6 @@ export default function Footer() {
             />
           </a>
 
-          {/* links */}
           <div className="footer-links-wrapper">
             <nav>
               <ul className="footer-links">

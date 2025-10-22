@@ -20,8 +20,6 @@ export default function header() {
               height="49"
             />
           </a>
-
-          {/* links */}
           <div className="header-links-wrapper">
             <nav className="header-nav">
               <ul className="header-links">
@@ -52,7 +50,6 @@ export default function header() {
                 </li>
               </ul>
             </nav>
-
             <a className="orange-button orange" href="#" data-aos="zoom-in">
               Qabulga yozilish
             </a>
