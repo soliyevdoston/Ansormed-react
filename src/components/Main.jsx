@@ -1,4 +1,9 @@
 import React from "react";
+import heroImg from "../assets/hero-img.png";
+import img1 from "../assets/image 1.jpg";
+import img2 from "../assets/image 2.jpg";
+import img3 from "../assets/image 3.jpg";
+import img4 from "../assets/image 3 (2).jpg";
 
 export default function Main() {
   return (
@@ -27,7 +32,7 @@ export default function Main() {
             </div>
             <img
               className="hero-img"
-              src="../../src/assets/hero-img.png"
+              src={heroImg}
               alt="python-book"
               height="510"
               width="510"
@@ -49,11 +54,7 @@ export default function Main() {
 
             <ul className="cards">
               <li className="card" data-aos="fade-down-right">
-                <img
-                  className="circle"
-                  src="../../src/assets/image 1.jpg"
-                  alt="Oson buyurtma qilish"
-                />
+                <img className="circle" src={img1} alt="Oson buyurtma qilish" />
                 <div className="card-div">
                   <h2 className="card-title">Hijoma</h2>
                   <p className="card-text">
@@ -71,11 +72,7 @@ export default function Main() {
                 data-aos="fade-down-right"
                 data-aos-delay="100"
               >
-                <img
-                  className="circle"
-                  src="../../src/assets/image 2.jpg"
-                  alt="Eng sara kitoblar"
-                />
+                <img className="circle" src={img2} alt="Eng sara kitoblar" />
                 <div className="card-div">
                   <h2 className="card-title">Manual terapiya</h2>
                   <p className="card-text">
@@ -92,11 +89,7 @@ export default function Main() {
                 data-aos="fade-down-right"
                 data-aos-delay="200"
               >
-                <img
-                  className="circle"
-                  src="../../src/assets/image 3.jpg"
-                  alt="Tez yetkazib berish"
-                />
+                <img className="circle" src={img3} alt="Tez yetkazib berish" />
                 <div className="card-div">
                   <h2 className="card-title">Zuluk bilan davolash</h2>
                   <p className="card-text">
@@ -116,11 +109,7 @@ export default function Main() {
                 data-aos="fade-down-right"
                 data-aos-delay="300"
               >
-                <img
-                  className="circle"
-                  src="../../src/assets/image 3 (2).jpg"
-                  alt="Tez yetkazib berish"
-                />
+                <img className="circle" src={img4} alt="Tez yetkazib berish" />
                 <div className="card-div">
                   <h2 className="card-title">Tabiy dori vositalar</h2>
                   <p className="card-text">

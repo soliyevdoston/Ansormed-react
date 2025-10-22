@@ -9,7 +9,7 @@ export default function header() {
           <a
             className="logo-text"
             style={{ color: "black" }}
-            href="index.html"
+            href="../App.jsx"
             data-aos="fade-right"
             data-aos-duration="1500"
           >

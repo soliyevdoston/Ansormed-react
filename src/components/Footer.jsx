@@ -1,5 +1,5 @@
 import React from "react";
-
+import footerImg from "../assets/logo (2).svg";
 export default function Footer() {
   return (
     <div>
@@ -7,12 +7,7 @@ export default function Footer() {
         <div className="top"></div>
         <div className="contenir footer-container">
           <a className="logo-text" href="index.html">
-            <img
-              src="../../src/assets/logo (2).svg"
-              alt="ansormed logo"
-              width="150"
-              height="49"
-            />
+            <img src={footerImg} alt="ansormed logo" width="150" height="49" />
           </a>
 
           <div className="footer-links-wrapper">
